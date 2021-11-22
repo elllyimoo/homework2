@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  color: #373737;
+}
+.container {
+  width: 1280px;
+  margin: 0 auto;
+}
+
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.nav-menu{
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 25.5px; 
+  padding-bottom: 25.5px;
+
+}
+.nav-menu-item {
+
+  display: inline-block;
+  /* margin-left: 36px; */
+}
+.nav-menu-link {
+  margin-left: 72px;
+  font-weight: bold;
+  color: #FF0000;
+  font-size: 14px;
+  line-height: 16px;
+
+}
+main {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.title {
+  justify-content: center;
+  margin-top: 49px;
+  margin-bottom: 38px;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 27px;
+  display: flex;
+  letter-spacing: 3.3px;
+  text-transform: uppercase;
+}
+.paragraph1 {
+  font-size: 16px;
+line-height: 26px;
+letter-spacing: 2.4px;
+margin-bottom: 28px;
+}
+.paragraph2 {
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 2.4px;
+}
+.main-btn {
+  margin-top: 66px;
+  margin-bottom: 82px;
+  border: none;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 12px;
+  background: #FF0000;
+  border-radius: 4px;
+  color: #FFFFFF;
+  padding: 18px 43px;
+}
+.copyright {
+  margin-left: 713px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  align-items: center;
+  letter-spacing: 2.4px;
+}
