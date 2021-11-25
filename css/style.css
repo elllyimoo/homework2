@@ -24,15 +24,14 @@ a {
 .nav-menu-item {
 
   display: inline-block;
-  /* margin-left: 36px; */
 }
 .nav-menu-link {
   margin-left: 72px;
   font-weight: bold;
   color: #FF0000;
-  font-size: 14px;
-  line-height: 16px;
-
+  font-size: 18px;
+  line-height: 18px;
+  text-transform: uppercase;
 }
 main {
   display: flex;
@@ -72,6 +71,7 @@ margin-bottom: 28px;
   border-radius: 4px;
   color: #FFFFFF;
   padding: 18px 43px;
+  cursor: pointer;
 }
 .copyright {
   margin-left: 713px;
